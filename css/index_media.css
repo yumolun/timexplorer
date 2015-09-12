@@ -1,0 +1,141 @@
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+@media screen and (max-width: 980px) {
+
+	#container{
+		width: 100%;
+		//margin:0 auto;
+		position: relative;
+	}
+
+
+
+	#welcome{
+		width: 50%;
+	}
+
+	#forms{
+		width: 25%;
+		//height:400px;
+		position: relative;
+		top: 80px;
+		left: 55%;
+	}
+
+
+	#forms .formtext {
+	    //height:30px;
+	    width:220px;
+	    padding:5px 8px;
+	    margin:5px 8px;
+	    border:1px solid #aaa;
+	    border-radius:5px;
+	}
+	
+}
+
+/************************************************************************************
+smaller than 750
+*************************************************************************************/
+@media screen and (max-width: 750px) {
+	#container{
+		width: 100%;
+		//margin:0 auto;
+		position: relative;
+	}
+
+
+
+	#welcome{
+		display: none;
+	}
+
+	#forms{
+		width: 25%;
+		//height:400px;
+		position: absolute;
+		//top: 80px;
+		left: 25%;
+	}
+
+
+}
+
+/************************************************************************************
+smaller than 400
+*************************************************************************************/
+@media screen and (max-width: 400px) {
+
+
+
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	#container{
+		width: 100%;
+		margin:0 45px;
+		position: relative;
+	}
+
+
+
+	#welcome{
+		display: none;
+	}
+
+	#forms{
+		//width: 15%;
+		//height:400px;
+		left:13%;
+		position: absolute;
+	}
+
+
+
+	#forms .formtext {
+	    width:150px;
+	}
+
+}
+
+/************************************************************************************
+smaller than 300
+*************************************************************************************/
+@media screen and (max-width: 300px) {
+
+
+
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	#container{
+		width: 100%;
+		margin:0 35px;
+		position: relative;
+	}
+
+
+
+	#welcome{
+		display: none;
+	}
+
+	#welcome h1{
+		font-size: 18px;
+	}
+
+	#forms{
+		left:6%;
+	}
+
+
+	#forms .formtext {
+	    width:100px;
+	}
+
+}
+
+
